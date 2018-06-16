@@ -1,0 +1,1 @@
+react-people-search-bar component for react

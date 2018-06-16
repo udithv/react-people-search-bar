@@ -13,7 +13,7 @@
     "publish-demo": "npm run build && npm run deploy"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "peerDependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
