@@ -33,7 +33,7 @@ class App extends Component {
     render(){
         return(
             <div className="container">
-                <h1>People Search Bar</h1>
+                <h1>React People Search Bar</h1>
                 <h4>Search for People using dbpedia database</h4>
                 <br />
                 <p>
