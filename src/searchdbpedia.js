@@ -36,7 +36,7 @@ const getQueryString = (st) =>
 
 
 export const searchresults = (searchterm, reqseqid) => {
-    const endpointUrl = 'http://dbpedia.org/sparql',
+    const endpointUrl = 'https://dbpedia.org/sparql',
     fullUrl = endpointUrl + '?query=' + encodeURIComponent( getQueryString(searchterm) ),
     headers = { 'Accept': 'application/sparql-results+json' };
     
